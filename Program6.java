@@ -11,7 +11,7 @@ public class Program6 {
         circumference = circumference/1000;
         double diameter = 2*r;
         diameter = diameter*1000;
-        diameter = (double) ((int)diamter);
+        diameter = (double) ((int)diameter);
         diameter = diameter/1000;
         double area = pi*r*r;
         area = area*1000;
