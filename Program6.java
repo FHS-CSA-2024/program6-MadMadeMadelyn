@@ -6,8 +6,17 @@ public class Program6 {
         double pi = 3.14;
         double r = 0;
         double circumference = 2*pi*r;
+        circumference = circumference*1000;
+        circumference = (double) ((int)circumference);
+        circumference = circumference/1000;
         double diameter = 2*r;
+        diameter = diameter*1000;
+        diameter = (double) ((int)diamter);
+        diameter = diameter/1000;
         double area = pi*r*r;
+        area = area*1000;
+        area = (double) ((int)area);
+        area = area/1000;
         
         Scanner numScanner = new Scanner(System.in);
         System.out.println("Enter the radius: ");
