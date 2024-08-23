@@ -5,6 +5,11 @@ public class Program6 {
     public static void main(String[]args){
         double pi = 3.14;
         double r = 0;
+        
+        Scanner numScanner = new Scanner(System.in);
+        System.out.println("Enter the radius: ");
+        r = numScanner.nextInt();
+
         double circumference = 2*pi*r;
         circumference = circumference*1000;
         circumference = (double) ((int)circumference);
@@ -17,10 +22,6 @@ public class Program6 {
         area = area*1000;
         area = (double) ((int)area);
         area = area/1000;
-        
-        Scanner numScanner = new Scanner(System.in);
-        System.out.println("Enter the radius: ");
-        r = numScanner.nextInt();
         
         System.out.println("The Radius of the circle = " + r);
         System.out.println("The Diameter of the circle = " + diameter);
